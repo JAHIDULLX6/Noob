@@ -1,10 +1,13 @@
 {
-  "name": "sagor-rf-fca",
+  "name": "sagor-fca-rf",
   "version": "1.0.6",
   "module": "commonjs",
   "types": "src/types/index.d.ts",
   "description": "Advanced Facebook Chat API (FCA) for Node.js - Bug-fixed fork of sagor-fca with memory leak fixes, proper reconnection handling, and production-ready stability",
   "main": "index.js",
+  "publishConfig": {
+  "access": "public"
+  }
   "files": [
     "index.js",
     "src/",
